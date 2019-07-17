@@ -12,7 +12,7 @@
         <e:Label height="35" x="60" fontFamily="chiller" text="X" textColor="0x000000" textAlign="center" verticalAlign="middle" size="24"/>
         <e:Label id="greenCounts" height="35" x="80" fontFamily="chiller" text="0" textColor="0x000000" textAlign="center" verticalAlign="middle" size="24"/>
     </e:Group>
-    <e:Group height="35" horizontalCenter="0" verticalCenter="150">
+    <e:Group height="35" width="150" horizontalCenter="0" verticalCenter="150">
         <e:Label id="bestScoreLabel" text="Best Score: X " fontFamily="chiller" textColor="0x000000"  bold="true" size="32" textAlign="center" verticalAlign="middle" verticalCenter="0"/>
         <e:Label id="bestScore" textColor="0x000000" fontFamily="chiller" bold="true" size="32" textAlign="center" verticalAlign="middle" verticalCenter="0" x="160"/>
     </e:Group>
