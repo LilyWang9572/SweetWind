@@ -7,6 +7,7 @@ class GameResult extends eui.Component {
     private bestScore:eui.Label;
     private yellowCounts:eui.Label;
     private greenCounts:eui.Label;
+    private bestScoreLabel:eui.Label;
     private mc:egret.MovieClip;
     private static _instance:GameResult;
     public static GetInstance() {
@@ -27,6 +28,7 @@ class GameResult extends eui.Component {
         this.yellowCounts.text = egret.localStorage.getItem("yellowNumbers");
         this.greenCounts.text = egret.localStorage.getItem("greenNumbers");
         this.bestScore.text = egret.localStorage.getItem("bestScore");
+        this.AutoResizeText(this.bestScoreLabel);
         var data = RES.getRes("grass_json");
         var txtr = RES.getRes("grass_png");
         var mcFactory:egret.MovieClipDataFactory = new egret.MovieClipDataFactory(data, txtr);
@@ -47,5 +49,14 @@ class GameResult extends eui.Component {
         egret.Tween.removeTweens(this.leaf3);
         egret.Tween.removeTweens(this.leaf4);
         egret.Tween.removeTweens(this.leaf5);
+    }
+    private AutoResizeText(target:eui.Label) {
+        while(target.size > 10) {
+            if(target.width > target.parent.width) {
+                target.size -= 2;
+            } else {
+                break;
+            }
+        }
     }
 }

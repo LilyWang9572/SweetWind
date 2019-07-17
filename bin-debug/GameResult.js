@@ -29,6 +29,7 @@ var GameResult = (function (_super) {
         this.yellowCounts.text = egret.localStorage.getItem("yellowNumbers");
         this.greenCounts.text = egret.localStorage.getItem("greenNumbers");
         this.bestScore.text = egret.localStorage.getItem("bestScore");
+        this.AutoResizeText(this.bestScoreLabel);
         var data = RES.getRes("grass_json");
         var txtr = RES.getRes("grass_png");
         var mcFactory = new egret.MovieClipDataFactory(data, txtr);
@@ -49,6 +50,16 @@ var GameResult = (function (_super) {
         egret.Tween.removeTweens(this.leaf3);
         egret.Tween.removeTweens(this.leaf4);
         egret.Tween.removeTweens(this.leaf5);
+    };
+    GameResult.prototype.AutoResizeText = function (target) {
+        while (target.size > 10) {
+            if (target.width > target.parent.width) {
+                target.size -= 2;
+            }
+            else {
+                break;
+            }
+        }
     };
     return GameResult;
 }(eui.Component));
