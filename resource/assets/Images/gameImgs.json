@@ -1,0 +1,6 @@
+{"file":"gameImgs.png","frames":{
+"ground":{"x":1,"y":753,"w":1334,"h":109,"offX":0,"offY":0,"sourceW":1334,"sourceH":109},
+"red_leaf":{"x":1466,"y":1,"w":50,"h":27,"offX":0,"offY":8,"sourceW":50,"sourceH":35},
+"yellow_leaf":{"x":1403,"y":1,"w":61,"h":29,"offX":0,"offY":8,"sourceW":61,"sourceH":37},
+"bg":{"x":1,"y":1,"w":1334,"h":750,"offX":0,"offY":0,"sourceW":1334,"sourceH":750},
+"green_leaf":{"x":1337,"y":1,"w":64,"h":30,"offX":0,"offY":0,"sourceW":64,"sourceH":30}}}

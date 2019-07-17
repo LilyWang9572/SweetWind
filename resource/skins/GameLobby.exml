@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.GameLobby" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+    <e:Image source="bg" width="640" height="1136"/>
+    <e:Label id="title" text="Sweet Wind" textColor="0x000000" fontFamily="chiller" bold="true" size="44" horizontalCenter="0" verticalCenter="-100"/>
+    <e:Label id="promptTitle" text="tap anywhere to start" textColor="0x000000" fontFamily="chiller" size="32" horizontalCenter="0.5" verticalCenter="50"/>
+    <e:Image id="leaf1" source="green_leaf" width="50" height="35" y="1050"/>
+	<e:Image id="leaf2" source="green_leaf" width="50" height="35" y="1102" x="121"/>
+	<e:Image id="leaf3" source="green_leaf" width="50" height="35" y="1102" x="-49"/>
+	<e:Image id="leaf4" source="green_leaf" width="50" height="35" y="981" x="-53"/>
+	<e:Image id="leaf5" source="green_leaf" width="50" height="35" y="1135" x="232"/>
+</e:Skin>

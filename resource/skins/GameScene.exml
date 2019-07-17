@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.GameScene" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="bg" width="640" height="1136"/>
+    <e:Group width="120" height="35" x="20" y="10">
+        <e:Image source="yellow_leaf" width="50" height="35"/>
+        <e:Label height="35" x="60" fontFamily="chiller" text="X" textColor="0x000000" textAlign="center" verticalAlign="middle" size="24"/>
+        <e:Label id="yellowCounts" height="35" x="80" fontFamily="chiller" text="0" textColor="0x000000" textAlign="center" verticalAlign="middle" size="24"/>
+    </e:Group>
+    <e:Group width="120" height="35" x="150" y="10">
+        <e:Image source="green_leaf" width="50" height="35"/>
+        <e:Label height="35" x="60" fontFamily="chiller" text="X" textColor="0x000000" textAlign="center" verticalAlign="middle" size="24"/>
+        <e:Label id="greenCounts" height="35" x="80" fontFamily="chiller" text="0" textColor="0x000000" textAlign="center" verticalAlign="middle" size="24"/>
+    </e:Group>
+</e:Skin>

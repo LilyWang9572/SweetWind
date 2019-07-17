@@ -1,0 +1,10 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skins/GameLobby.exml",
+		"resource/skins/GameResult.exml",
+		"resource/skins/GameScene.exml"
+	],
+	"path": "resource/default.thm.json"
+}

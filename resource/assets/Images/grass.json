@@ -1,0 +1,28 @@
+{"mc":{
+	"grass":{
+		"frameRate":3,
+		"labels":[
+			{"name":"action","frame":1,"end":2}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"grass",
+			"x":11,
+			"y":0
+			},
+			{
+			"res":"ground",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"grass":{"x":1,"y":1,"w":1323,"h":110},
+		"ground":{"x":1,"y":113,"w":1334,"h":109}
+	}}
